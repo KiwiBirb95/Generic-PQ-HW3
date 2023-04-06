@@ -34,7 +34,7 @@ public class PQ<E extends Comparable<? super E>>
         return min;
     }
 
-    // Inserts element into pq at the correct position using the compareTo method.
+    // Inserts element into pq at the correct position using the compareTo method
     public void insert(E element)
     {
         int i;
